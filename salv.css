@@ -1,23 +1,23 @@
 .title {
-	color: hotpink;
-	text-shadow: none;
+    color: hotpink;
+    text-shadow: none;
 }
 
 h1 {
-  color: #C0C0C0;
-  text-align: center;
-  margin-top: 20%;
-  font-size: 50px;
-  font-family: "Poiret One";
-  font-style: normal;
-  font-weight: 400;
+    color: #C0C0C0;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 50px;
+    font-family: "Poiret One";
+    font-style: normal;
+    font-weight: 400;
 }
 
 @font-face {
-  font-family: "Poiret One";
-  font-style: normal;
-  font-weight: 400;
-  src: local('Poiret One'), local('PoiretOne-Regular'), url(https://fonts.gstatic.com/l/font?kit=ObxytbfKasUWX7_ipglurChqGa-CSr3nQtF3lrv2wWeu7RP096c_0cFQ7arjjB7ybFaXKHeky_O7IdzbE_trRh2NL1ThVuLv506WDWjwTFK0tkCcv8VGcP6XCC56Ww8-&skey=b92d66791719178) format('woff2');
+    font-family: "Poiret One";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poiret One'), local('PoiretOne-Regular'), url(https://fonts.gstatic.com/l/font?kit=ObxytbfKasUWX7_ipglurChqGa-CSr3nQtF3lrv2wWeu7RP096c_0cFQ7arjjB7ybFaXKHeky_O7IdzbE_trRh2NL1ThVuLv506WDWjwTFK0tkCcv8VGcP6XCC56Ww8-&skey=b92d66791719178) format('woff2');
 }
 
 
@@ -25,7 +25,7 @@ h1 {
 {
     background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
     -webkit-background-size: 125px;
-	color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.1);
     -webkit-background-clip: text;
     -webkit-animation-name: shine;
     -webkit-animation-duration: 20s;
@@ -36,33 +36,50 @@ h1 {
 {
 0%
  {
-	background-position: top left;
+    background-position: top left;
  }
 100%
 	{
-	background-position: top right;
+    background-position: top right;
     }
 }
 
 .quote {
-	color: black;
-	font-family: "Poiret One";
-	font-size: 14px;
-	font-weight: 800;
-  text-align: center;
-  margin-top: -2.5%;
+    color: black;
+    font-family: "Poiret One";
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -2.5%;
 }
 
 .links {
-	color: black;
-	font-family: "Poiret One";
-	font-size: 22px;
-	text-align: center;
-	margin-top: 0.25%;
-	background-color: none;
+    color: black;
+    font-family: "Poiret One";
+    font-size: 22px;
+    text-align: center;
+    margin-top: 0.25%;
+    background-color: none;
 }
 
 body {
-	background: #FFFFFF 
+    background: #FFFFFF;
+    height: 400vh;
 }
 
+.top {
+    height: 100vh;
+}
+
+.midtop {
+    height: 100vh;
+}
+
+.midbot {
+    height: 100vh;
+}
+
+.bot {
+    height: 100vh;
+    background-color: #1b1e1e;
+}
